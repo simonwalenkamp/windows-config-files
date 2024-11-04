@@ -1,0 +1,179 @@
+{
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.tree.enableStickyScroll": false,
+    "editor.stickyScroll.enabled": false,
+    "[vue]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.formatOnSave": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "always"
+    },
+    "eslint.format.enable": true,
+    "typescript.format.enable": false,
+    "workbench.activityBar.location": "top",
+    "workbench.colorTheme": "Alt Catppuccin Mocha",
+    "terminal.integrated.gpuAcceleration": "auto",
+    "terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font Mono'",
+    "window.newWindowProfile": "Default",
+    "editor.minimap.enabled": false,
+    "editor.cursorSurroundingLines": 8,
+    "vim.leader": " ",
+    "vim.smartRelativeLine": true,
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "ctrl+j"
+            ],
+            "commands": [
+                "cursorDown"
+            ]
+        },
+        {
+            "before": [
+                "ctrl+k"
+            ],
+            "commands": [
+                "cursorUp"
+            ]
+        },
+        {
+            "before": [
+                "ctrl+h"
+            ],
+            "commands": [
+                "cursorLeft"
+            ]
+        },
+        {
+            "before": [
+                "ctrl+l"
+            ],
+            "commands": [
+                "cursorRight"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "g",
+                "p",
+                "d"
+            ],
+            "commands": [
+                "editor.action.peekDefinition"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "h"
+            ],
+            "commands": [
+                "editor.action.showDefinitionPreviewHover"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "i"
+            ],
+            "commands": [
+                "editor.action.goToImplementation"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "p",
+                "i"
+            ],
+            "commands": [
+                "editor.action.peekImplementation"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "q"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "r"
+            ],
+            "commands": [
+                "editor.action.referenceSearch.trigger"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "t"
+            ],
+            "commands": [
+                "editor.action.goToTypeDefinition"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "p",
+                "t"
+            ],
+            "commands": [
+                "editor.action.peekTypeDefinition"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "ctrl",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "x"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        }
+    ],
+}

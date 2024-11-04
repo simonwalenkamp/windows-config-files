@@ -1,0 +1,41 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpenNavigateNext",
+        "when": "inCommandPalette"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpenNavigatePrevious",
+        "when": "inCommandPalette"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.focusActiveEditorGroup"
+    }
+]
